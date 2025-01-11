@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+.header-container{
+    background: #243D61;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.apply-now{
+    background: -webkit-gradient(linear, left top, left bottom, from(#71BD3A), to(#39780C));
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border: #39780C;
+    cursor: pointer;
+}
+
+.forms{
+    background: #dfe7f3;
+    color: #001640;
+}
+
+.box-menu{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 20px 0;
+}
+
+.link-on-lang {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+}
+
+.link-on-lang > li {
+    /*background-color: #007BFF;*/
+    color: #001640;
+    /*padding: 10px 20px;*/
+    text-align: center;
+}
+
+.link-on-lang > li:hover {
+    /*background-color: #0056b3;*/
+}
+
+/* Скрытый выпадающий список */
+.link-on-lang .dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /*min-width: 150px;*/
+    z-index: 1;
+    list-style: none;
+    right: 0px;
+}
+
+.link-on-lang .dropdown li {
+    color: #333;
+    /*padding: 10px 20px;*/
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.link-on-lang .dropdown li:hover {
+    background-color: #f0f0f0;
+}
+
+.link-on-lang:hover .dropdown {
+    display: block;
+}
+
+.backgrond-dominica{
+    background: url('images/dominica.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 2560px;
+    height: 400px;
+    overflow: hidden;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-site{
+    font-size: 38px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    text-transform: none;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.041);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+}
+
+.apply-now-online{
+    font-family: "Roboto";
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#71BD3A), to(#39780C));
+    background: -webkit-linear-gradient(top, #71BD3A 0%, #39780C 100%);
+    background: linear-gradient(180deg, #71BD3A 0%, #39780C 100%);
+    border: none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 12px 72px;
+}
+
+.e-tick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
