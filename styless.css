@@ -134,3 +134,86 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+.link-on-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.form-link1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sign-form{
+    width: 80px;
+}
+
+.link-on-form2{
+    /*max-width: 150px;*/
+}
+
+.dom-e{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #243D61;
+}
+
+.photo-qr{
+    max-width: 250px;
+    height: 217px;
+}
+
+.descript{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.descript1{
+    max-width: 486px;
+}
+
+.descript-dominic{
+    /*padding-bottom: 32px;*/
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #2f4f7e;
+    letter-spacing: 0.2px;
+}
+
+.descript2{
+    font-family: "Roboto";
+    line-height: 26px;
+    color: #666;
+    padding-bottom: 16px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+.descript3{
+    background: #dfe7f3;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    display: flex;
+}
