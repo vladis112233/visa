@@ -235,3 +235,50 @@ body{
 .sign-form2{
     width: 50px;
 }
+
+.country-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    gap: 1rem;
+}
+
+.country-item{
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #2f4f7e;
+    text-align: center;
+    margin: 0 0 32px 0;
+    letter-spacing: 0.2px;
+}
+
+table{
+    max-width: 900px;
+}
+
+.table1{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
