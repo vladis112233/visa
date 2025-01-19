@@ -282,3 +282,80 @@ table{
     flex-direction: column;
     align-items: center;
 }
+
+.confirm{
+    color: green;
+    font-size: 24px;
+}
+
+.stop{
+    color: red;
+    font-size: 24px;
+}
+
+.footer{
+    background: #243D61;
+    padding-top: 20px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+}
+
+.ssl{
+    display: flex;
+    align-items: center;
+}
+
+.footer-box2{
+    max-width: 400px;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.container-foot{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ssl2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px;
+}
+
+.link-foot{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer2{
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 0;
+}
