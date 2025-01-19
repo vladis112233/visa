@@ -241,8 +241,28 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 1400px;
     gap: 1rem;
+    max-height: 400px; /* Display only 4 rows (50px each) */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    position: relative;
+}
+
+.country-list::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px; /* Высота градиента */
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    pointer-events: none; /* Градиент не мешает кликам */
+    z-index: 1;
+}
+
+.country-list.expanded::after {
+    display: none; /* Убираем градиент, если список раскрыт */
 }
 
 .country-item{
@@ -251,8 +271,13 @@ body{
     display: flex;
     align-items: center;
     gap: 1rem;
-    border: 1px solid;
+    border: 1px solid #CCCCCC;
     padding: 5px;
+    box-shadow: 0px 0px 4px 0px #CCCCCC;
+    color: #192b44;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .country{
@@ -358,4 +383,35 @@ table{
     font-weight: 400;
     color: #fff;
     padding: 20px 0;
+}
+
+.country-flag{
+    width: 40px;
+}
+
+.country-item img {
+    width: 40px;
+    height: auto;
+}
+
+.show-more {
+    margin-top: 10px;
+    padding: 10px;
+    /*background-color: #007bff;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #666;
+    background: white;
+}
+
+/*.show-more:hover {*/
+/*    background-color: #0056b3;*/
+/*}*/
+
+.country-list.expanded {
+    max-height: 100%; /* Достаточная высота для полного списка */
 }
