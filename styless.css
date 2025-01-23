@@ -299,6 +299,11 @@ h1{
 
 table{
     max-width: 900px;
+    border-collapse: collapse;
+}
+
+thead{
+    background: #dfe7f3;
 }
 
 .table1{
@@ -311,6 +316,7 @@ table{
 .confirm{
     color: green;
     font-size: 24px;
+    background-color: #f1fff4;
 }
 
 .stop{
@@ -414,4 +420,60 @@ table{
 
 .country-list.expanded {
     max-height: 100%; /* Достаточная высота для полного списка */
+}
+
+.form-submit{
+    background: #f1f1f1;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.submit-applic{
+    max-width: 1140px;
+    background: #dfe7f3;
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    border: 1px solid #2b4974;
+}
+
+
+.submit-applic-part1{
+    background: #2b4974;
+    width: 300px;
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.submit-applic-part1::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #2b4974;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.description1{
+    padding-left: 30px;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.description2{
+    color: #243D61;
+    font-family: Roboto;
+    padding-right: 30px;
+}
+
+.submit-applic1{
+    max-width: 1140px;
 }
