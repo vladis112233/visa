@@ -492,8 +492,8 @@ thead{
 }
 
 .text-ad{
-    width: 100%;
-    max-width: 450px;
+    /*width: 100%;*/
+    width: 450px;
     height: 46px;
 }
 
@@ -502,6 +502,7 @@ thead{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
+    width: 100%;
 }
 
 .form3{
@@ -516,4 +517,19 @@ thead{
 
 .form4{
     align-items: center;
+}
+
+.take-num{
+    /*width: 100%;*/
+    width: 60px;
+}
+
+.text-ad1{
+    width: 390px;
+    height: 46px;
+}
+
+.take-num2{
+    display: flex;
+    width: 450px;
 }
