@@ -300,6 +300,8 @@ h1{
 table{
     max-width: 900px;
     border-collapse: collapse;
+    width: 100%;
+
 }
 
 thead{
@@ -438,12 +440,13 @@ thead{
     align-items: center;
     gap: 7rem;
     border: 1px solid #2b4974;
+    margin-bottom: 30px;
 }
 
 
 .submit-applic-part1{
     background: #2b4974;
-    width: 300px;
+    width: 425px;
     position: relative;
     height: 50px;
     display: flex;
@@ -459,7 +462,7 @@ thead{
     border-left: 50px solid #2b4974;
     border-bottom: 25px solid transparent;
     position: absolute;
-    left: 300px;
+    left: 425px;
     top: 0px;
 }
 
@@ -480,8 +483,8 @@ thead{
     background: white;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
     align-items: center;
+    width: 100%;
 }
 
 .form-group{
@@ -495,6 +498,23 @@ thead{
     width: 100%;
     max-width: 450px;
     height: 46px;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1px solid #c0c6ef;
+    color: gray;
+}
+
+.text-ad3{
+    width: 100%;
+    max-width: 462px;
+    height: 46px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1px solid #c0c6ef;
+    color: gray;
 }
 
 .form2{
@@ -522,15 +542,51 @@ thead{
 .take-num{
     /*width: 100%;*/
     width: 60px;
+    border-radius: 2px;
+    border: 1px solid #c0c6ef;
+    color: gray;
 }
 
 .text-ad1{
     width: 100%;
     max-width: 390px;
     height: 46px;
+    border: 1px solid #c0c6ef;
+    border-radius: 2px;
 }
 
 .take-num2{
     display: flex;
     width: 450px;
+}
+
+.name-of-input{
+    color: #666;
+    font-family: "Roboto";
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+}
+
+.card-detail{
+    max-width: 100%;
+    height: 30px;
+    background: #2b4974;
+    color: #ffffff;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.name-of-input-under{
+    color: dimgrey;
+    font-size: 14px;
+    line-height: 130%;
+    margin-top: 10px;
+}
+
+.button-submit{
+
 }

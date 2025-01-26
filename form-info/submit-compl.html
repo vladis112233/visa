@@ -10,16 +10,11 @@
 <body>
 <div class="header-container">
     <div class="sign-of-e-ticket">
-        <a class="logo">
+        <a href="../index.html" class="logo">
             <img src="../images/logo_lg.webp">
         </a>
     </div>
 
-<!--    <div class="apply">-->
-<!--        <button class="apply-now">-->
-<!--            <a class="link-apply-now">Apply Online</a>-->
-<!--        </button>-->
-<!--    </div>-->
 </div>
 
 <div class="form-submit">
@@ -37,33 +32,36 @@
 
     <div class="submit-applic1">
         <div class="form2">
+            <div class="card-detail">
+                Personal Details
+            </div>
             <div class="form3">
                 <div class="form-group">
-                    <label for="surname">Surname *</label>
+                    <label class="name-of-input" for="surname">Surname *</label>
                     <input class="text-ad" type="text" id="surname" name="surname" required placeholder="Enter your surname">
-                    <span>Enter your Surname exactly as shown in your passport.</span>
+                    <span class="name-of-input-under">Enter your Surname exactly as shown in your passport.</span>
                 </div>
 
                 <div class="form-group">
-                    <label for="given-names">Given Name(s) *</label>
+                    <label class="name-of-input" for="given-names">Given Name(s) *</label>
                     <input class="text-ad" type="text" id="given-names" name="given_names" required placeholder="Enter your given names">
-                    <span>Enter your Given Name(s) exactly as shown in your passport, including any middle names.</span>
+                    <span class="name-of-input-under">Enter your Given Name(s) exactly as shown in your passport, including any middle names.</span>
                 </div>
             </div>
 
             <div class="form3 form4">
                 <div class="form-group-sex">
-                    <label>Sex *</label>
-                    <label>
+                    <label class="name-of-input">Sex *</label>
+                    <label class="name-of-input">
                         <input type="radio" name="sex" value="male" required> Male
                     </label>
-                    <label>
+                    <label class="name-of-input">
                         <input type="radio" name="sex" value="female" required> Female
                     </label>
                 </div>
 
                 <div class="form-group">
-                    <label for="dob">Date of Birth *</label>
+                    <label class="name-of-input" for="dob">Date of Birth *</label>
                     <input class="text-ad" type="date" id="dob" name="dob" required>
                 </div>
             </div>
@@ -71,8 +69,8 @@
 
             <div class="form3">
                 <div class="form-group">
-                    <label for="country-birth">Country of Birth *</label>
-                    <select class="text-ad" id="country-birth" name="country_birth" required>
+                    <label class="name-of-input" for="country-birth">Country of Birth *</label>
+                    <select class="text-ad3" id="country-birth" name="country_birth" required>
                         <option value="">Select a country</option>
                         <option value="af">Afghanistan</option>
                         <option value="al">Albania</option>
@@ -86,8 +84,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="country-citizenship">Country of Citizenship *</label>
-                    <select class="text-ad" id="country-citizenship" name="country_citizenship" required>
+                    <label class="name-of-input" for="country-citizenship">Country of Citizenship *</label>
+                    <select class="text-ad3" id="country-citizenship" name="country_citizenship" required>
                         <option value="">Select a country</option>
                         <option value="af">Afghanistan</option>
                         <option value="al">Albania</option>
@@ -100,16 +98,16 @@
                     </select>
                 </div>
             </div>
-
-
-            <button type="submit">Submit</button>
         </div>
 
         <div class="form2">
+            <div class="card-detail">
+                Passport Details
+            </div>
             <div class="form3">
                 <div class="form-group">
-                    <label for="passport-country">Country of Passport *</label>
-                    <select class="text-ad" id="passport-country" name="passport_country" required>
+                    <label class="name-of-input" for="passport-country">Country of Passport *</label>
+                    <select class="text-ad3" id="passport-country" name="passport_country" required>
                         <option value="">Select a country</option>
                         <option value="ax">Aland Islands</option>
                         <option value="us">United States</option>
@@ -121,45 +119,45 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="passport-number">Passport Number *</label>
+                    <label class="name-of-input" for="passport-number">Passport Number *</label>
                     <input class="text-ad" type="text" id="passport-number" name="passport_number" required placeholder="Enter your passport number">
-                    <span>Please use Latin characters. Be careful with letter “O” and number “0”; and letter “I” and number “1”.</span>
+                    <span class="name-of-input-under">Please use Latin characters. Be careful with letter “O” and number “0”; and letter “I” and number “1”.</span>
                 </div>
             </div>
 
             <div class="form3">
                 <div class="form-group">
-                    <label for="issue-date">Date of Issue *</label>
+                    <label class="name-of-input" for="issue-date">Date of Issue *</label>
                     <input class="text-ad" type="date" id="issue-date" name="issue_date" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="expiry-date">Expiry Date *</label>
+                    <label class="name-of-input" for="expiry-date">Expiry Date *</label>
                     <input class="text-ad" type="date" id="expiry-date" name="expiry_date" required>
                 </div>
             </div>
-
-
-            <button type="submit">Submit</button>
         </div>
 
         <div class="form2">
+            <div class="card-detail">
+                Contact Details
+            </div>
             <div class="form3">
                 <div class="form-group">
-                    <label for="email-address">Email Address *</label>
+                    <label class="name-of-input" for="email-address">Email Address *</label>
                     <input class="text-ad" type="email" id="email-address" name="email_address" required placeholder="Enter your email">
-                    <span>Primary Contact Method, double check it.</span>
+                    <span class="name-of-input-under">Primary Contact Method, double check it.</span>
                 </div>
 
                 <div class="form-group">
-                    <label for="confirm-email">Confirm Email Address *</label>
+                    <label class="name-of-input" for="confirm-email">Confirm Email Address *</label>
                     <input class="text-ad" type="email" id="confirm-email" name="confirm_email" required placeholder="Re-enter your email">
                 </div>
             </div>
 
             <div class="form3">
                 <div class="form-group">
-                    <label for="phone-code">Mobile/Cell Telephone *</label>
+                    <label class="name-of-input" for="phone-code">Mobile/Cell Telephone *</label>
                     <div class="take-num2">
                         <select class="take-num" id="phone-code" name="phone_code" required>
                             <option value="">Select</option>
@@ -171,20 +169,19 @@
                         </select>
                         <input class="text-ad1" type="text" id="phone-number" name="phone_number" required placeholder="Enter your phone number">
                     </div>
-                    <span>Include your country code and local number.</span>
+                    <span class="name-of-input-under">Include your country code and local number.</span>
                 </div>
             </div>
-
-
-            <button type="submit">Submit</button>
         </div>
 
         <div class="form2">
-
+            <div class="card-detail">
+                Travel Details
+            </div>
             <div class="form3">
                 <div class="form-group">
-                    <label for="transport-type">Type of Transport *</label>
-                    <select class="text-ad" id="transport-type" name="transport_type" required>
+                    <label class="name-of-input" for="transport-type">Type of Transport *</label>
+                    <select class="text-ad3" id="transport-type" name="transport_type" required>
                         <option value="">Select Transport Type</option>
                         <option value="Air">Air</option>
                         <option value="Sea">Sea</option>
@@ -193,30 +190,30 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="ticket-type">Type of e-Ticket *</label>
-                    <select class="text-ad" id="ticket-type" name="ticket_type" required>
+                    <label class="name-of-input" for="ticket-type">Type of e-Ticket *</label>
+                    <select class="text-ad3" id="ticket-type" name="ticket_type" required>
                         <option value="">Select e-Ticket Type</option>
                         <option value="Arrival in the Dominican Republic">Arrival in the Dominican Republic</option>
                         <option value="Departure from the Dominican Republic">Departure from the Dominican Republic</option>
                         <option value="Transit through the Dominican Republic">Transit through the Dominican Republic</option>
                     </select>
-                    <span>Please select the correct type of e-Ticket for your trip.</span>
+                    <span class="name-of-input-under">Please select the correct type of e-Ticket for your trip.</span>
                 </div>
             </div>
 
             <div class="form3">
                 <div class="form-group">
-                    <label for="entry-date">Intended Date of Entry *</label>
+                    <label class="name-of-input" for="entry-date">Intended Date of Entry *</label>
                     <input class="text-ad" type="date" id="entry-date" name="entry_date" required>
-                    <span>Select the date you will arrive in the Dominican Republic.</span>
+                    <span class="name-of-input-under">Select the date you will arrive in the Dominican Republic.</span>
                 </div>
             </div>
-
-
-            <button type="submit">Submit</button>
         </div>
 
         <div class="form2">
+            <div class="card-detail">
+                Declaration of Applicant
+            </div>
             <div class="checkbox-group">
                 <label>
                     <input type="checkbox" id="declaration" name="declaration" required>
@@ -230,8 +227,10 @@
                     I have read and understood the <a href="#">Terms and Conditions</a>, and the <a href="#">Privacy Policy</a>.
                 </label>
             </div>
+            <div class="button-submit">
+                <button class="sub" type="submit">Submit</button>
+            </div>
 
-            <button type="submit">Submit</button>
         </div>
 
     </div>
