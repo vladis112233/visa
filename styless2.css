@@ -3,6 +3,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #666;
+    margin-bottom: 20px;
 }
 
 .box{
@@ -66,4 +67,9 @@ td{
     /*-webkit-appearance: none;*/
     /*-moz-appearance: none;*/
     /*appearance: none;*/
+}
+
+.table-cookies{
+    display: flex;
+    justify-content: center;
 }
