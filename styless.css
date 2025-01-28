@@ -25,6 +25,11 @@ body{
     font-weight: bold;
     border: #39780C;
     cursor: pointer;
+    display: none;
+}
+
+.apply-now:hover{
+    background: #264610;
 }
 
 .forms{
@@ -36,13 +41,35 @@ body{
     display: flex;
     justify-content: flex-end;
     padding-right: 40px;
+    display: none;
 }
 
 .menu{
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 20px 0;
+    padding: 3px 0;
+    list-style: none;
+}
+
+.under-menu{
+    /*background: white;*/
+    /*max-width: 110px;*/
+}
+
+/*.under-menu:hover{*/
+/*    background: rgba(234, 20, 20, 0);*/
+/*}*/
+
+.link-on-page{
+    color: #001640;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+.link-on-page:hover{
+    background: rgba(144, 153, 168, 0.51);
 }
 
 .link-on-lang {
@@ -70,21 +97,31 @@ body{
 .link-on-lang .dropdown {
     display: none;
     position: absolute;
-    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /*min-width: 150px;*/
     z-index: 1;
     list-style: none;
     right: 0px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    background: #dfe7f3;
 }
 
-.link-on-lang .dropdown li {
-    color: #333;
-    /*padding: 10px 20px;*/
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-
+.dropdown-under{
+    padding: 15px 40px;
+    border-bottom: 1px solid white;
 }
+
+.border-no{
+    border: none;
+}
+
+/*.link-on-lang .dropdown li {*/
+/*    color: #333;*/
+/*    !*padding: 10px 20px;*!*/
+/*    text-align: left;*/
+/*    border-bottom: 1px solid #ddd;*/
+/*}*/
 
 .link-on-lang .dropdown li:hover {
     background-color: #f0f0f0;
@@ -132,6 +169,11 @@ body{
     -webkit-border-radius: 5px;
     border-radius: 5px;
     padding: 12px 72px;
+    cursor: pointer;
+}
+
+.apply-now-online:hover{
+    background: #264610;
 }
 
 .e-tick{
@@ -163,11 +205,52 @@ body{
 }
 
 .sign-form{
-    width: 80px;
+    width: 81px;
+    height: 80px;
+    background: url('images/css_sprites.png') 0px 0px;
+}
+
+.sign-form1{
+    width: 81px;
+    height: 80px;
+    background: url('images/css_sprites.png') -85px 0px;
+}
+
+.sign-form2{
+    width: 81px;
+    height: 80px;
+    background: url('images/css_sprites.png') 0px -80px;
+}
+
+
+
+
+.sign-form3{
+    width: 39px;
+    height: 43px;
+    background: url('images/css_sprites.png') -172px -105px;
+}
+
+.sign-form4{
+    width: 47px;
+    height: 48px;
+    background: url('images/css_sprites.png') -172px -10px;
+}
+
+.sign-form5{
+    width: 50px;
+    height: 47px;
+    background: url('images/css_sprites.png') -91px -90px;
+}
+
+.sign-form6{
+    width: 47px;
+    height: 47px;
+    background: url('images/css_sprites.png') -172px -58px;
 }
 
 .link-on-form2{
-    /*max-width: 150px;*/
+    max-width: 210px;
 }
 
 .dom-e{
@@ -230,10 +313,6 @@ body{
 .advantage{
     background: #243D61;
     padding: 30px 0;
-}
-
-.sign-form2{
-    width: 50px;
 }
 
 .country-list{
@@ -332,6 +411,8 @@ thead{
     /*display: flex;*/
     /*flex-direction: column;*/
     /*align-items: center;*/
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .ssl{
@@ -374,6 +455,10 @@ thead{
     font-weight: 500;
     color: #fff;
     text-decoration: none;
+}
+
+.link-foot:hover{
+    text-decoration: underline;
 }
 
 .footer-box{
@@ -590,3 +675,13 @@ thead{
 .button-submit{
 
 }
+
+.link-apply-now{
+    text-decoration: none;
+    color: white;
+}
+
+.step1{
+    color: #337ab7;
+}
+
