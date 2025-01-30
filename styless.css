@@ -16,6 +16,14 @@ body{
     z-index: 100;
 }
 
+.logo{
+
+}
+
+.logo1{
+    max-width: 200px;
+}
+
 .apply-now{
     background: -webkit-gradient(linear, left top, left bottom, from(#71BD3A), to(#39780C));
     padding: 10px 22px;
@@ -25,7 +33,7 @@ body{
     font-weight: bold;
     border: #39780C;
     cursor: pointer;
-    display: none;
+    /*display: none;*/
 }
 
 .apply-now:hover{
@@ -41,7 +49,7 @@ body{
     display: flex;
     justify-content: flex-end;
     padding-right: 40px;
-    display: none;
+    /*display: none;*/
 }
 
 .menu{
@@ -55,6 +63,15 @@ body{
 .under-menu{
     /*background: white;*/
     /*max-width: 110px;*/
+}
+
+.under-menu1{
+    /*background: white;*/
+    /*max-width: 110px;*/
+}
+
+.under-menu2{
+    display: none;
 }
 
 /*.under-menu:hover{*/
@@ -80,6 +97,56 @@ body{
     display: inline-block;
     cursor: pointer;
     list-style: none;
+}
+
+.link-on-lang1 {
+    list-style: none;
+    position: relative;
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #243D61;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+/* Скрываем выпадающее меню по умолчанию */
+.dropdown1 {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: -40px;
+    background: #243D61;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    /*padding: 3px 20px;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    /*border-radius: 5px;*/
+    display: none;
+    min-width: 120px;
+    z-index: 1000;
+}
+
+/* Показываем выпадающее меню при наведении */
+.link-on-lang1:hover .dropdown1 {
+    display: block;
+}
+
+/* Стили для элементов выпадающего списка */
+.dropdown-under1 {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.dropdown-under1:hover {
+    background-color: rgba(70, 95, 133, 0.71);
+}
+
+/* Убираем границу у последнего элемента */
+.border-no {
+    border-bottom: none;
 }
 
 .link-on-lang > li {
@@ -388,10 +455,42 @@ thead{
 }
 
 .table1{
-    padding: 20px 0;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 400px){
+    .table1{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 460px){
+    .apply{
+        display: none;
+    }
+
+    .link-on-lang{
+        display: none;
+    }
+
+    .box-menu{
+        padding-right: 0;
+    }
+
+    .under-menu2{
+        display: block;
+    }
+
+    .under-menu1{
+        display: none;
+    }
+
+    .link-on-lang1{
+        display: inline-block;
+    }
 }
 
 .confirm{
