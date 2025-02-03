@@ -617,6 +617,7 @@ thead{
     align-items: center;
 }
 
+
 .submit-applic{
     max-width: 1140px;
     background: #dfe7f3;
@@ -625,6 +626,12 @@ thead{
     gap: 7rem;
     border: 1px solid #2b4974;
     margin-bottom: 30px;
+}
+
+@media (max-width: 1150px){
+    .submit-applic{
+        display: none;
+    }
 }
 
 
@@ -714,6 +721,40 @@ thead{
     flex-direction: row;
 }
 
+@media (max-width: 860px){
+    .form3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-ad{
+        max-width: 800px;
+        width: 70%;
+    }
+
+    .form-group{
+        width: 100%;
+        /*padding: 0;*/
+    }
+
+    .text-ad3{
+        max-width: 800px;
+        width: 70%;
+    }
+
+    .form-submit{
+        overflow: hidden;
+    }
+
+    .name-of-input-under{
+        width: 200px;
+    }
+
+    .take-num{
+        /*display: none;*/
+    }
+}
+
 .form-group-sex{
     width: 50%;
     padding: 15px 30px;
@@ -741,7 +782,20 @@ thead{
 
 .take-num2{
     display: flex;
-    width: 450px;
+    max-width: 480px;
+    width: 100%;
+}
+
+@media (max-width: 859px){
+    .take-num2{
+        display: flex;
+        max-width: 800px;
+        width: 72%;
+    }
+
+    .text-ad1{
+        max-width: 740px;
+    }
 }
 
 .name-of-input{
@@ -783,4 +837,17 @@ thead{
 .step1{
     color: #337ab7;
 }
+
+.sub {
+    max-width: 100px;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#71BD3A), to(#39780C));
+    border: #39780C;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+}
+
 
