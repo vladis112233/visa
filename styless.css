@@ -346,6 +346,7 @@ body{
 
 .descript1{
     max-width: 486px;
+    padding: 8px;
 }
 
 .descript-dominic{
@@ -478,6 +479,9 @@ thead{
 
     .box-menu{
         padding-right: 0;
+        justify-content: center;
+        overflow: hidden;
+
     }
 
     .under-menu2{
@@ -826,7 +830,8 @@ thead{
 }
 
 .button-submit{
-
+    padding-left: 16px;
+    padding-bottom: 10px;
 }
 
 .link-apply-now{
@@ -850,4 +855,7 @@ thead{
     padding: 5px;
 }
 
-
+.checkbox-group{
+    padding-left: 16px;
+    color: dimgrey;
+}
